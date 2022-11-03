@@ -1,0 +1,12 @@
+<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="header">
+<div class="navigation">
+    <ul>
+        <li><a href="I'm_a_developer.html">Главная</a></li>
+        <li><a href="I'm_a_developer.html">Обо мне</a></li>
+        <li><a href="cat.html">Котик</a></li>
+        <li><a href="acontacts.html">Обратная связь</a></li>
+    </ul>
+</div>

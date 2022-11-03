@@ -1,0 +1,63 @@
+
+
+.header {
+    display: flex;
+}
+.navigation {
+    background-color: #4a4343;
+    flex: 80 0%;
+
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    text-decoration:none;
+}
+ .navigation li a {
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+}
+
+.navigation a:hover {
+    background-color: #100;
+    text-decoration: underline;
+}
+
+
+.title {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    font: 30px bold;
+    color:white;
+    flex: 0 20%;
+    float: right;
+    background-color: #4a4343;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+}
+
+#photo {
+    width: 30%;
+    float: left;
+    margin: 0 20px;
+}
+
+#hobby {
+    width: 80%; 
+    font-size: 20px;
+    text-align: justify;
+}
