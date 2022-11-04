@@ -4,9 +4,8 @@
     display: flex;
 }
 .navigation {
-    background-color: #4a4343;
     flex: 80 0%;
-
+    background-color: #4a4343;
 }
 
 .navigation li {
@@ -14,17 +13,16 @@
 }
 
 .navigation a{
-    height: 100%;
     display: table;
     float: left;
+    font-size:1.3em;
     padding: 0px 20px;
     text-decoration:none;
 }
+
  .navigation li a {
-    vertical-align: middle;
     display: table-cell;
     color: white;
-    text-align: center;
     padding: 14px 14px;
 }
 
@@ -35,12 +33,10 @@
 
 
 .title {
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-    font: 30px bold;
-    color:white;
     flex: 0 20%;
+    text-align: center;
+    font: 2em bold;
+    color:white;
     float: right;
     background-color: #4a4343;
 }
@@ -58,6 +54,6 @@
 
 #hobby {
     width: 80%; 
-    font-size: 20px;
+    font-size: 1.2em;
     text-align: justify;
 }
